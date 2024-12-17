@@ -1,0 +1,99 @@
+
+.custom-navbar {
+  padding: 0.5rem 1rem;
+}
+
+.custom-navbar .logo-section {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.custom-navbar .menu-section {
+  flex: 2;
+}
+
+.custom-navbar .profile-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.custom-navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+.custom-navbar .navbar-brand span {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.custom-navbar .donate-btn {
+  color: #fff !important;
+  background-color: black;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+}
+
+.custom-navbar .donate-btn:hover {
+  background-color: #333;
+}
+
+.custom-navbar .profile-section .profile-pic {
+  width: 45px;
+  height: 45px;
+  margin-right: 1px;
+  margin-top: -2px;
+}
+
+.custom-navbar .profile-dropdown-toggle {
+  cursor: pointer;
+}
+
+.profile-section {
+  margin-right: 15px;
+}
+
+.ms-2 {
+  color: black;
+  
+}
+
+.logo {
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.profile-name {
+  margin-top: 6px;
+  color: black;
+  margin-right: -5px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.profile-dropdown .dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-dropdown .dropdown-item:hover {
+  background-color: #f1f1f1;
+}

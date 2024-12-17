@@ -1,0 +1,74 @@
+
+.custom-navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-navbar .logo-section {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .custom-navbar .menu-section {
+    flex: 2;
+  }
+  
+  .custom-navbar .profile-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .navbar-brand img {
+    margin-right: 0.5rem;
+  }
+  
+  .custom-navbar .navbar-brand span {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .custom-navbar .donate-btn {
+    color: #fff !important;
+    background-color: black;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+  }
+  
+  .custom-navbar .donate-btn:hover {
+    background-color: #333;
+  }
+  
+  .custom-navbar .profile-section .profile-pic {
+    width: 45px;
+    height: 45px;
+    margin-right: 0.5rem;
+  }
+  
+  .custom-navbar .profile-dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .profile-section {
+    margin-right: 20px;
+  }
+  
+  .ms-2 {
+    color: black;
+  }
+  
+  .logo {
+    margin-left: 5px;
+    
+  }
+  
+  .mx-auto12
+  {
+    margin-left: 50px;
+  }
